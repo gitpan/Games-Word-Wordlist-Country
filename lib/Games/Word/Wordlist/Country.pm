@@ -1,7 +1,7 @@
 package Games::Word::Wordlist::Country;
 
 our $DATE = '2014-10-07'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -31,7 +31,7 @@ Games::Word::Wordlist::Country - English names of countries of the world
 
 =head1 VERSION
 
-This document describes version 0.01 of Games::Word::Wordlist::Country (from Perl distribution Games-Word-Wordlist-Country), released on 2014-10-07.
+This document describes version 0.02 of Games::Word::Wordlist::Country (from Perl distribution Games-Word-Wordlist-Country), released on 2014-10-07.
 
 =head1 SYNOPSIS
 
@@ -42,13 +42,13 @@ This document describes version 0.01 of Games::Word::Wordlist::Country (from Per
 
 =head1 DESCRIPTION
 
-This module provides English names of countries of the world. You can use this
-in some word games, e.g. L<Games::Word::Hangman>.
+This module provides a list of English names of countries of the world. You can
+use this module in some word games, e.g. L<Games::Hangman>.
 
-The list is produced using the latest L<Locale::Codes> during build time, using
-the shortest name for each country, then converted to lowercase. Some words will
-contain whitespace (e.g. "Sri Lanka") or parentheses (e.g. "Virgin Islands
-(UK)"). If you only want single words, you can use
+To produce the list, the latest L<Locale::Codes> during build time is used. The
+shortest names for each country is taken, then converted to lowercase. Thus,
+some words will contain whitespace (e.g. "sri lanka") or parentheses (e.g.
+"virgin islands (uk)"). If you only want single words, you can use
 L<Games::Word::Wordlist::CountrySingleWord>.
 
 =head1 HOMEPAGE

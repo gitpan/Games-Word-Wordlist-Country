@@ -1,7 +1,7 @@
 package Games::Word::Wordlist::CountrySingleWord;
 
 our $DATE = '2014-10-07'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -33,7 +33,7 @@ Games::Word::Wordlist::CountrySingleWord - English names of countries of the wor
 
 =head1 VERSION
 
-This document describes version 0.01 of Games::Word::Wordlist::CountrySingleWord (from Perl distribution Games-Word-Wordlist-Country), released on 2014-10-07.
+This document describes version 0.02 of Games::Word::Wordlist::CountrySingleWord (from Perl distribution Games-Word-Wordlist-Country), released on 2014-10-07.
 
 =head1 SYNOPSIS
 

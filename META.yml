@@ -23,7 +23,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Games-Word-Wordlist-Country
   homepage: https://metacpan.org/release/Games-Word-Wordlist-Country
   repository: git://github.com/perlancar/perl-Games-Word-Wordlist-Country.git
-version: '0.01'
+version: '0.02'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
