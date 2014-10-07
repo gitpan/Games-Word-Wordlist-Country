@@ -1,0 +1,49 @@
+NAME
+    Games::Word::Wordlist::Country - English names of countries of the world
+
+VERSION
+    This document describes version 0.01 of Games::Word::Wordlist::Country
+    (from Perl distribution Games-Word-Wordlist-Country), released on
+    2014-10-07.
+
+SYNOPSIS
+      use Games::Word::Wordlist::Country;
+      my $wl = Games::Word::Wordlist::Country->new;
+      my $word = $wl->random_word;
+      print "We have a word." if $wl->is_word ($word);
+
+DESCRIPTION
+    This module provides English names of countries of the world. You can
+    use this in some word games, e.g. Games::Word::Hangman.
+
+    The list is produced using the latest Locale::Codes during build time,
+    using the shortest name for each country, then converted to lowercase.
+    Some words will contain whitespace (e.g. "Sri Lanka") or parentheses
+    (e.g. "Virgin Islands (UK)"). If you only want single words, you can use
+    Games::Word::Wordlist::CountrySingleWord.
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Games-Word-Wordlist-Country>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/perlancar/perl-Games-Word-Wordlist-Country>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Games-Word-Wordlist-C
+    ountry>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    perlancar <perlancar@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by perlancar@cpan.org.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
